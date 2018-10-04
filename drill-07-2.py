@@ -14,12 +14,7 @@ def reach_point(x, y, px, py):
         return True
 
 def draw_line_perfect(i,p0,p1,p2,p3):
-        t = i / 100
-        x = ((-t ** 3 + 2 * t ** 2 - t) * p0[0] + (3 * t ** 3 - 5 * t ** 2 + 2) * p1[0] + (
-                -3 * t ** 3 + 4 * t ** 2 + t) * p2[0] + (t ** 3 - t ** 2) * p3[0]) / 2
-        y = ((-t ** 3 + 2 * t ** 2 - t) * p0[1] + (3 * t ** 3 - 5 * t ** 2 + 2) * p1[1] + (
-                -3 * t ** 3 + 4 * t ** 2 + t) * p2[1] + (t ** 3 - t ** 2) * p3[1]) / 2
-        return x, y
+    pass
 
 def goal_current_to_point(point_count):
 
